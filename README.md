@@ -141,7 +141,7 @@ Note: Below link is not for setup as it seems outdated to me but you can follow 
  - Swaraj Kumar Biswal (22BT10033)
 
 ## References
-- [RSA encryption](https://link-url-here.org)
+- [RSA encryption](https://www.youtube.com/watch?v=j2NBya6ADSY)
 - [Digital Signatures](https://www.youtube.com/watch?v=JR4_RBb8A9Q)
 - [Bitcoin Wallets](https://101blockchains.com/crypto-wallets/)
 - [Hot wallets and Cold wallets](https://www.investopedia.com/hot-wallet-vs-cold-wallet-7098461#:~:text=Hot%20and%20cold%20wallets%20are%20the%20primary%20means%20of%20storing,such%20as%20a%20USB%20stick.)
