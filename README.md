@@ -23,6 +23,37 @@ Presentation on Bitcoin and security for Kharagpur Open Source Society.
 - Hierarchical Deterministic Wallets
 - Best ways to secure Crypto wallets
 
+## How to run a full node on your Laptop
+
+- Clone the source code of the bitcoin repository from github
+```
+$ git clone https://github.com/bitcoin/bitcoin.git
+```
+- Move into the cloned directory
+```
+$ cd ./bitcoin/
+```
+- Check for the latest version of the repository. the version with 'rc' as their suffix are made for testing purposes
+```
+$ git tag
+```
+- Move into the version branch you intended to go
+```
+$ git checkout v24.1
+```
+Now we are at the intended version to setup bitcoin-core
+
+- Run the autogen.sh executable file to start the setup
+```
+$ ./autogen.sh
+```
+
+- Run the ./configure file [you can add a prefix flag to install it on your intented destination] otherwise the default install installation location will be /usr/local/bin/ directory
+
+```
+$ ./configure --prefix=/home/swaraj/Download/bitcoin/
+```
+
 ## Author
  - Swaraj Kumar Biswal (22BT10033)
 
