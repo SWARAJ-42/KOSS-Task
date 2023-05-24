@@ -3,7 +3,7 @@ Presentation on Bitcoin and security for Kharagpur Open Source Society.
 
 - Note: It is recommended to use MS powerpoint for compatability and to run integrated videos.
 
-## Contents 
+## Content of the presentation
 - Cryptography
 - How Cryptography works
 - Symmetric Key Cryptography
