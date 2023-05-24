@@ -24,7 +24,7 @@ Presentation on Bitcoin and security for Kharagpur Open Source Society.
 - Best ways to secure Crypto wallets
 
 ## How to run Bitcoin regtest
-- Download [bitcoin-core]()
+- Download [bitcoin-core](https://bitcoincore.org/en/download/)
 
 ## How to run a full node on your Laptop
 #### Note: make sure the you have free disk space of atleast 600GB to run as a full node.
