@@ -23,9 +23,6 @@ Presentation on Bitcoin and security for Kharagpur Open Source Society.
 - Hierarchical Deterministic Wallets
 - Best ways to secure Crypto wallets
 
-## How to run Bitcoin regtest
-- Download [bitcoin-core](https://bitcoincore.org/en/download/)
-
 ## How to run a full node on your Laptop
 #### Note: make sure the you have free disk space of atleast 600GB to run as a full node.
 
@@ -80,6 +77,39 @@ Note: remember the syncing will take a lot of time. You can stop and resume anyt
 You can perform any task you want after running the syncing process to using bitcoin-cli. Run
 ```
 $ bitcoin-cli --help
+```
+
+## How to run Bitcoin regtest
+This tutorial is completely independent from `How to run a full node on your laptop` and goes through fresh installation and setup.
+- Download [bitcoin-core](https://bitcoincore.org/en/download/)
+- Extract it into a suitable directory
+- Move into the directory
+- Open the directory on terminal
+- Run the following. and the save the output to any backup. we will need it in future.
+```
+$ python ./share/rpcauth/rpcauth.py <YOURUSERNAME>
+```
+- Create a `.bitcoin` directory on `$HOME`.
+```
+$ mkdir ~/.bitcoin
+```
+- Create a data directory where blockchain data needs to be stored
+```
+$ mkdir ~/.bitcoin/data
+```
+- Create a configuration file `bitcoin.conf` on `.bitcoin` directory
+```
+$ touch ~/.bitcoin/bitcoin.conf
+```
+- Add these lines to the file and add the `rpcuser`, `rpcpassword` and `rpcauth` values from the backup you created and save it.
+```
+daemon=1
+datadir=/path/to/my/blockchain/data/.bitcoin/data
+regtest=1
+rpcauth=<USERNAME>:...
+rpcuser=<YOURUSERNAME>
+rpcpassword=<PASSWORD>
+server=1
 ```
 
 ## Author
