@@ -116,6 +116,21 @@ rpcpassword=<PASSWORD>
 # Turn on the RPC server
 server=1
 ```
+- now run the `bitcoind` executable which is present on the downloaded bitcoin core directory
+```
+$ bitcoin-$version/bin/bitcoind
+```
+Our blockchain is started running on background
+
+- create a new wallet where you will manage all your transactions
+```
+$ bitcoin-$version/bin/bitcoin-cli createwallet "WALLETNAME"
+```
+
+- Generate a new address for your wallet and save it somewhere
+```
+$ bitcoin-$version/bin/bitcoin-cli getnewaddress
+```
 
 
 ## Author
