@@ -24,6 +24,8 @@ Presentation on Bitcoin and security for Kharagpur Open Source Society.
 - Best ways to secure Crypto wallets
 
 ## How to run a full node on your Laptop
+#### Note: make sure the you have free disk space of atleast 600GB to run as a full node.
+
 
 - Clone the source code of the bitcoin repository from github
 ```
@@ -52,6 +54,29 @@ $ ./autogen.sh
 
 ```
 $ ./configure --prefix=/home/swaraj/Download/bitcoin/
+```
+- Look for a configuration file which is probably present in ~/.bitcoin/ directory. If you donot find the directory create one and create the file bitcoin.conf.
+```
+$ mkdir ~/.bitcoin
+$ cd ~/.bitcoin && touch bitcoin.conf
+```
+- Add this content to the file and save it
+```
+datadir=/lotsofspace/bitcoin
+txindex=1
+```
+here the line /lotsofspace/bitcoin represents represents the path to the directory where you want to store the whole bitcoin data.
+
+- Now we are done with the configuration now to run our node to start syncing with the mainnet.
+
+```
+$ bitcoind -printtoconsole
+```
+Note: remember the syncing will take a lot of time. You can stop and resume anytime you want to.
+
+You can perform any task you want after running the syncing process to using bitcoin-cli. Run
+```
+$ bitcoin-cli --help
 ```
 
 ## Author
