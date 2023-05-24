@@ -127,10 +127,14 @@ Our blockchain is started running on background
 $ bitcoin-$version/bin/bitcoin-cli createwallet "WALLETNAME"
 ```
 
-- Generate a new address for your wallet and save it somewhere
+- Generate a new address and some blocks to add some balance to your account
 ```
-$ bitcoin-$version/bin/bitcoin-cli getnewaddress
+$ bitcoin-$version/bin/bitcoin-cli -generate 101
 ```
+Now we have a functioning blockchain and a member, here we can add multiple nodes and transfer transactions.
+
+Note: Below link is not for setup as it seems outdated to me but you can follow it after setting up by following my tutorial.
+- [Know More on what to do after setup](https://gist.github.com/System-Glitch/cb4e87bf1ae3fec9925725bb3ebe223a)
 
 
 ## Author
@@ -145,3 +149,5 @@ $ bitcoin-$version/bin/bitcoin-cli getnewaddress
 - [How to run Bitcoin regtest](https://gist.github.com/System-Glitch/cb4e87bf1ae3fec9925725bb3ebe223a)
 - [Blockchain full node tutorial](https://www.youtube.com/watch?v=rsicnI86QqE&t=272s)
 - [Running a full node](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch03.asciidoc)
+- [Regtest tutorial](https://gist.github.com/System-Glitch/cb4e87bf1ae3fec9925725bb3ebe223a)
+- [Setting up your own wallet](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/03_3_Setting_Up_Your_Wallet.md)
