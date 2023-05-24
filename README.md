@@ -101,16 +101,22 @@ $ mkdir ~/.bitcoin/data
 ```
 $ touch ~/.bitcoin/bitcoin.conf
 ```
-- Add these lines to the file and add the `rpcuser`, `rpcpassword` and `rpcauth` values from the backup you created and save it.
+- Add these lines to the file and add the `rpcuser`, `rpcpassword` and `rpcauth` from the backup you created and save it.
 ```
+# Run Bitcoin as in daemon mode without an interactive shell
 daemon=1
+# Tell Bitcoin where to put blockchain data
 datadir=/path/to/my/blockchain/data/.bitcoin/data
+# Tell Bitcoin to run on a regtest network
 regtest=1
+# Set the RPC from the output generated
 rpcauth=<USERNAME>:...
 rpcuser=<YOURUSERNAME>
 rpcpassword=<PASSWORD>
+# Turn on the RPC server
 server=1
 ```
+
 
 ## Author
  - Swaraj Kumar Biswal (22BT10033)
