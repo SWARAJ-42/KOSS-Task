@@ -88,5 +88,6 @@ $ bitcoin-cli --help
 - [Bitcoin Wallets](https://101blockchains.com/crypto-wallets/)
 - [Hot wallets and Cold wallets](https://www.investopedia.com/hot-wallet-vs-cold-wallet-7098461#:~:text=Hot%20and%20cold%20wallets%20are%20the%20primary%20means%20of%20storing,such%20as%20a%20USB%20stick.)
 - [Blockchain course](https://www.youtube.com/watch?v=6aF6p2VUORE&t=18915s)
-- [Blockchain full node](https://www.youtube.com/watch?v=rsicnI86QqE&t=272s)
+- [How to run Bitcoin regtest](https://gist.github.com/System-Glitch/cb4e87bf1ae3fec9925725bb3ebe223a)
+- [Blockchain full node tutorial](https://www.youtube.com/watch?v=rsicnI86QqE&t=272s)
 - [Running a full node](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch03.asciidoc)
