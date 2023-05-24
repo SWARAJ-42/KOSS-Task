@@ -83,7 +83,7 @@ $ bitcoin-cli --help
 This tutorial is completely independent from `How to run a full node on your laptop` and goes through fresh installation and setup.
 - Download [bitcoin-core](https://bitcoincore.org/en/download/)
 - Extract it into a suitable directory
-- Move into the directory
+- Move into the project directory `(bitcoin-$version)`
 - Open the directory on terminal
 - Run the following. and the save the output to any backup. we will need it in future.
 ```
