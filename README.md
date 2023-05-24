@@ -23,6 +23,9 @@ Presentation on Bitcoin and security for Kharagpur Open Source Society.
 - Hierarchical Deterministic Wallets
 - Best ways to secure Crypto wallets
 
+## How to run Bitcoin regtest
+- Download [bitcoin-core]()
+
 ## How to run a full node on your Laptop
 #### Note: make sure the you have free disk space of atleast 600GB to run as a full node.
 
@@ -45,17 +48,17 @@ $ git checkout v24.1
 ```
 Now we are at the intended version to setup bitcoin-core
 
-- Run the autogen.sh executable file to start the setup
+- Run the `autogen.sh` executable file to start the setup
 ```
 $ ./autogen.sh
 ```
 
-- Run the ./configure file [you can add a prefix flag to install it on your intented destination] otherwise the default install installation location will be /usr/local/bin/ directory
+- Run the `./configure` file [you can add a prefix flag to install it on your intented destination] otherwise the default install installation location will be `/usr/local/bin/` directory
 
 ```
 $ ./configure --prefix=/home/swaraj/Download/bitcoin/
 ```
-- Look for a configuration file which is probably present in ~/.bitcoin/ directory. If you donot find the directory create one and create the file bitcoin.conf.
+- Look for a configuration file which is probably present in `~/.bitcoin/` directory. If you donot find the directory create one and create the file bitcoin.conf.
 ```
 $ mkdir ~/.bitcoin
 $ cd ~/.bitcoin && touch bitcoin.conf
@@ -65,7 +68,7 @@ $ cd ~/.bitcoin && touch bitcoin.conf
 datadir=/lotsofspace/bitcoin
 txindex=1
 ```
-here the line /lotsofspace/bitcoin represents represents the path to the directory where you want to store the whole bitcoin data.
+here the line `/lotsofspace/bitcoin` represents represents the path to the directory where you want to store the whole bitcoin data.
 
 - Now we are done with the configuration now to run our node to start syncing with the mainnet.
 
