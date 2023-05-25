@@ -4,12 +4,12 @@ Presentation on Bitcoin and security for Kharagpur Open Source Society.
 - Note: It is recommended to use MS powerpoint for compatability and to run integrated videos.
 
 ## README INDEX
-- [Content of the presentation](#content-of-the-presentation)
+- [Contents of the presentation](#contents-of-the-presentation)
 - [How to run a full node on your laptop](#how-to-run-a-full-node-on-your-laptop)
 - [How to run bitcoin regtest](#how-to-run-bitcoin-regtest)
-- [Sources and References](#references)
+- [Sources and References](#sources-and-references))
 
-## Content of the presentation
+## Contents of the presentation
 - Cryptography
 - How Cryptography works
 - Symmetric Key Cryptography
