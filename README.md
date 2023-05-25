@@ -7,7 +7,8 @@ Presentation on Bitcoin and security for Kharagpur Open Source Society.
 - [Contents of the presentation](#contents-of-the-presentation)
 - [How to run a full node on your laptop](#how-to-run-a-full-node-on-your-laptop)
 - [How to run bitcoin regtest](#how-to-run-bitcoin-regtest)
-- [Sources and References](#sources-and-references))
+- [Author](#author)
+- [Sources and References](#sources-and-references)
 
 ## Contents of the presentation
 - Cryptography
