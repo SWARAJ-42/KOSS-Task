@@ -50,7 +50,7 @@ Now we are at the intended version to setup bitcoin-core
 $ ./autogen.sh
 ```
 
-- Run the `./configure` file [you can add a prefix flag to install it on your intented destination] otherwise the default install installation location will be `/usr/local/bin/` directory
+- Run the `./configure` file ( you can add a prefix flag to install it on your intented destination ) otherwise the default install installation location will be `/usr/local/bin/` directory
 
 ```
 $ ./configure --prefix=/home/swaraj/Download/bitcoin/
