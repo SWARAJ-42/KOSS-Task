@@ -3,6 +3,12 @@ Presentation on Bitcoin and security for Kharagpur Open Source Society.
 
 - Note: It is recommended to use MS powerpoint for compatability and to run integrated videos.
 
+## README INDEX
+- [Content of the presentation](#content-of-the-presentation)
+- [How to run a full node on your laptop](#how-to-run-a-full-node-on-your-laptop)
+- [How to run bitcoin regtest](#how-to-run-bitcoin-regtest)
+- [Sources and References](#references)
+
 ## Content of the presentation
 - Cryptography
 - How Cryptography works
@@ -24,7 +30,7 @@ Presentation on Bitcoin and security for Kharagpur Open Source Society.
 - Best ways to secure Crypto wallets
 
 ## How to run a full node on your Laptop
-#### Note: make sure the you have free disk space of atleast 600GB to run as a full node.
+Note: make sure the you have free disk space of atleast 600GB to run as a full node.
 
 
 - Clone the source code of the bitcoin repository from github
@@ -140,7 +146,7 @@ Note: Below link is not for setup as it seems outdated to me but you can follow 
 ## Author
  - Swaraj Kumar Biswal (22BT10033)
 
-## References
+## Sources and References
 - [RSA encryption](https://www.youtube.com/watch?v=j2NBya6ADSY)
 - [Digital Signatures](https://www.youtube.com/watch?v=JR4_RBb8A9Q)
 - [Bitcoin Wallets](https://101blockchains.com/crypto-wallets/)
